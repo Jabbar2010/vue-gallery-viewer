@@ -13,9 +13,9 @@
 :mag: Zoom gesture
 
 **Please Use Mobile Browser** :satisfied:
-**[live demo](https://ssshooter.github.io/img-vuer/index.html)**
-or scan the QRcode
-<img width="150px" src="./QRcode.png">
+**[live demo](https://jabbar2010.github.io/vue-gallery-viewer/index.html)**
+
+
 
 ## Install
 ``` bash
