@@ -2,10 +2,10 @@
   <scroller>
     <div style="padding:20px;">
       <header>
-        <i class="iconfont icon-image"></i>img<span class="vue-green">Vue</span>r
+        <i class="iconfont icon-image"></i>vue-gallery-viewer
       </header>
       <div class="descript">
-        An image viewer base on Vue.js for mobile
+        An image viewer base on Vue.js for mobile and PC
       </div>
 
       <div class="subtitle">Multiple</div>
@@ -17,9 +17,9 @@
           :key="item.src">
       </div>
       <p>
-        <pre>&lt;img 
+        <pre>&lt;img
       <span class="vue-green">v-gallery</span>:group1
-      v-for="<span class="symbol">item in list1</span>" 
+      v-for="<span class="symbol">item in list1</span>"
       :src="item.src"&gt;</pre>
       </p>
 
@@ -33,9 +33,9 @@
           :key="item.src + index">
       </div>
       <p>
-        <pre>&lt;img 
+        <pre>&lt;img
       <span class="vue-green">v-gallery</span>="'group2'"
-      v-for="(item,index) in list2" 
+      v-for="(item,index) in list2"
       <span class="vue-green">:data-index="index"</span>
       :src="item.src"&gt;</pre>
       </p>
@@ -49,9 +49,9 @@
           :key="item.src + index">
       </div>
       <p>
-        <pre>&lt;img 
+        <pre>&lt;img
       <span class="vue-green">v-gallery</span>
-      v-for="item in list3" 
+      v-for="item in list3"
       :src="item.src"&gt;</pre>
       </p>
       <footer @click="toGitHub"><i class="iconfont icon-github"></i>GitHub</footer>
