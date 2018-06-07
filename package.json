@@ -1,0 +1,46 @@
+{
+  "name": "vue-gallery-viewer",
+  "description": "An image viewer base on Vue.js for mobile and PC from img-vuer",
+  "version": "0.0.1",
+  "author": "jiaxinming <834985612@qq.com>",
+  "keywords": [
+    "vue",
+    "gallery",
+    "image",
+    "image-viwer"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules && cross-env NODE_ENV=vueplugin webpack --progress --hide-modules",
+    "plugin": "cross-env NODE_ENV=vueplugin webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "v-finger-mk42": "^1.0.10",
+    "vue-scroller": "^2.2.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "_from": "img-vuer@0.9.22",
+  "_resolved": "http://registry.npm.taobao.org/img-vuer/download/img-vuer-0.9.22.tgz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expressjs/express.git"
+  }
+}
